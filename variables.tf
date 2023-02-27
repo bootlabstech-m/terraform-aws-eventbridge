@@ -2,16 +2,16 @@ variable "region" {
   description = "region"
   type        = string
 }
-variable "event_bus_name" {
-  description = "event bus name"
-  type        = string
-}
+# variable "event_bus_name" {
+#   description = "event bus name"
+#   type        = string
+# }
 variable "event_rule_name" {
   description = "event rule name"
   type        = string
 }
-variable "event_pattern" {
-  description = "event pattern"
+variable "schedule_expression" {
+  description = "schedule_expression"
   type        = string
 }
 variable "role_arn" {
